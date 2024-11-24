@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="myscripts.js"></script>
+    <title>Cookie wall</title>
+</head>
+<body>
+  <div class="Cookiebf" id="cbf">
+    <h1>Cookiewall Button</h1>
+    
+    <button id="CwBtn" class="Button" onclick="openwall()">Open Cookiewall</button>
+  </div>
+    <div id="Cw" class="Cokkiewall">
+
+        <div class="wall" id="cwall">
+          <button class="close" id="closeb" onclick="closewall()">&times;</button>
+          <p id="Agep">How old are you?</p>
+          <input type="number" name="ageipt" id="ageipt">
+          <button id="AgeB" onclick="agecheck()">Send</button>
+    </div>
+      </div>
+
+      <div class="Aftercookie" id="ack">
+        <h1>You are too Young!!</h1>
+      </div>
+</body>
+</html>
