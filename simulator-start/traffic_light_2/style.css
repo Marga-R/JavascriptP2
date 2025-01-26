@@ -1,0 +1,21 @@
+body {
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    border: 1px purple solid;
+    width: 400px;
+    height: 150px;
+}
+
+.trafficLight {
+    display: flex;
+    margin-top: 55vh;
+    margin-left: 10vw;
+    width: 20px;
+    justify-self: center;
+
+}
